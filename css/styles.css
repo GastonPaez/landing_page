@@ -164,10 +164,12 @@ about__icon{
 /* KNOWLEDGE */
 
 .knowledge{
-    background-color: #ffbf75;
-    background-image:  radial-gradient(#525558 1px, transparent 1px), radial-gradient(#525558 1px, #ffbf75 1px);
-    background-size: 50px 50px;
-    background-position: 0 0,25px 25px;
+    background-color: #e5e5f7;
+    opacity: 0.8;
+    background-image:  radial-gradient(#444cf7 0.5px, transparent 0.5px), radial-gradient(#444cf7 0.5px, #e5e5f7 0.5px);
+    background-size: 20px 20px;
+    background-position: 0 0,10px 10px;
+    
     overflow: hidden;
 
 }
@@ -211,7 +213,7 @@ about__icon{
 }
 
 .price__element{
-    background-color: #e5f5e7;
+    background-color: #D7F4FF;
     text-align: center;
     border-radius: 10px;
     width: 330px;
