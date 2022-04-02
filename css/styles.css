@@ -472,6 +472,7 @@ about__icon{
     border-radius: 6px;
     cursor: pointer;
     color: #fff;
+    cursor: pointer;
 
 }
 
@@ -531,4 +532,79 @@ about__icon{
 
 
     }
+    .nav__close{
+        position: absolute;
+        top: 30px;
+        right: 30px;
+        width: 30px;
+        cursor: pointer;
+    }
+    
+    .hero__title{
+        font-size: 2.5rem;
+
+    }
+
+    .about_main{
+        gap: 2em;
+    }
+
+    .about__icons:last-of-type{
+        grid-column: 1/-1;
+        
+    }
+
+    .knowledge__container{
+        grid-template-columns: 1fr;
+        grid-template-rows: max-content 1fr;
+        gap: 3em; 
+        text-align: center;
+    }
+
+    .knowledge__picture{
+        grid-row: 1/2;
+        justify-self: center;
+    }
+
+    .reputation__container{
+        grid-template-columns: 30px 1fr 30px;
+    }
+
+    .reputation__body{
+        grid-template-columns: 1fr;
+        grid-template-rows: max-content max-content;
+        gap: 3em;
+        justify-items: center;
+    }
+    
+    .reputation__img{
+        width: 200px;
+        height: 200px;
+    }
+
+    .questions__container{
+        width: 100%;
+    }
+
+    .footer__container{
+        flex-wrap: wrap;
+    }
+
+    .nav--footer{
+        width: 100%;
+        justify-items: center;
+    }
+
+    .nav__link--footer{
+        width: 100%;
+        justify-content: space-evenly;
+        margin: 0;
+    }
+
+    .footer__form{
+        width: 100%;
+        justify-content: space-evenly;
+    }
+
+
 }
