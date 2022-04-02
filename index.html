@@ -17,11 +17,11 @@
             </div>
 
             <ul class="nav__link nav__link--menu">
-                <li class="nav__items">
-                    <a href="" class="nav__links">Inicio</a></li> 
-                <li class="nav__items"><a href="" class="nav__links">Acerca de</a></li> 
-                <li class="nav__items"><a href="" class="nav__links">Contacto</a></li> 
-                <li class="nav__items"><a href="" class="nav__links">Blog</a></li> 
+                <li class="nav__items"><a href="#home" class="nav__links">Inicio</a></li> 
+                <li class="nav__items"><a href="#about" class="nav__links">Acerca de</a></li> 
+                <li class="nav__items"><a href="#price" class="nav__links">Precios</a></li> 
+                <li class="nav__items"><a href="#faq" class="nav__links">Faq</a></li> 
+                <li class="nav__items"><a href="#footer" class="nav__links">Contacto</a></li>                 
                     <img src="./images/close.svg" alt="menu" class="nav__close">                   
                               
             </ul>
@@ -29,20 +29,20 @@
                 <img src="./images/menus.svg" alt="menu open" class="nav__img">
             </div>
         </nav>
-        <section class="hero__container container">
+        <section class="hero__container container" id="home">
             <h1 class="hero__title">Aprende Blender Desde Cero!</h1>
             <p class="hero__paragraph">
-                Elige capacitarte en el mundo 3D. Blender nos sumerje en este fascinante mundo dotandonos de herramientas para que podamos expresarnos de la manera mas exacta y sencilla.
+                Elegí capacitarte en el mundo 3D. Blender nos sumerge en este fascinante universo dotándonos de herramientas para que podamos expresarnos de la manera más precisa en función de nuestras ideas.
             </p>
             <a href="#" class="cta">Comienza Ahora!</a>
         </section>        
     </header>
     
     <main>
-        <section class="container about">
+        <section class="container about" id="about">
             <h2 class="subtitle">¿Que vas a aprender en nuestro curso?</h2>
             <p class="about__paragraph">
-                Comenzaras conociendo las herramientas que blender nos ofrece para poder maquetar nuestro diseño. Tambien vas a conocer como convertir nuestras ideas a una estructura 3D, basandote en las dimensiones y la iluminacion.
+                Comenzaras conociendo las herramientas que Blender nos ofrece para poder maquetar nuestro diseño. También vas a conocer como convertir nuestras ideas a una estructura 3D, basándote en las dimensiones y la iluminación.
             </p>
             <div class="about__main">
                 <article class="about__icons">
@@ -50,21 +50,21 @@
                     <h3 class="about__title">
                         Blender
                     </h3>
-                    <p class="about__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas eius aperiam incidunt!</p>
+                    <p class="about__paragraph">Vas a conocer en profundidad esta asombrosa marco que nos brinda herramientas variadas para que podamos utilizar en base a lo que necesitemos crear.</p>
                 </article>
                 <article class="about__icons">
                     <img src="./images/pencil.svg" class="about__icon">
                     <h3 class="about__title">
                         Diseño
                     </h3>
-                    <p class="about__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas eius aperiam incidunt!</p>
+                    <p class="about__paragraph">Aprenderás a implementar las mejores herramientas de diseño para utilizar con Blender, compartirás lo mejor de todas las aplicaciones como Photoshop, Illustrator, y muchos más, para sacar el máximo de provecho.</p>
                 </article>
                 <article class="about__icons">
                     <img src="./images/arch.svg" class="about__icon">
                     <h3 class="about__title">
                         Modelado
                     </h3>
-                    <p class="about__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas eius aperiam incidunt!</p>
+                    <p class="about__paragraph">Aquí te encontraras en una etapa para que desarrolles las dimensiones de tus obras, modelaras a la perfección de tus limites los diseños que fuiste creando. Esta es la arquitectura final que tendrá forma definitiva.</p>
                 </article>
             </div>
         </section>
@@ -76,9 +76,9 @@
                         Curso Completo de Blender. ¡Domina Blender y diseña en 3D!
                     </h2>
                     <p class="knowledge__paragraph">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam maiores cumque aliquid, unde dolor optio.
-                    <a href="#" class="cta">Ingresa al Curso</a>
+                        En esta sección te encontraras con el curso definitivo de Blender, desde principiante a profesional. Este curso abarca todas las etapas de aprendizaje donde lograras dominar al máximo el uso de esta herramienta, también vas a obtener conocimientos sobre el diseño 3D y los mejores usos de las herramientas mas novedosas de la actualidad.
                     </p>
+                    <a href="#" class="cta">Ingresa al Curso</a>
                 </div>
                 <figure class="knowledge__picture">
                     <img src="./images/notebook_blender.png" alt="" class="knowledge__img">
@@ -86,41 +86,45 @@
             </div>
         </section>    
         
-        <section class="price container">
-            <h2 class="subtitle">Obten el Plan Perfecto</h2>
+        <section class="price container" id="price">
+            <h2 class="subtitle">Obtene el Plan Perfecto para vos!</h2>
             <div class="price__table">
                 <div class="price__element">
                     <p class="price__name">Blender para Principiantes</p>
-                    <h3 class="price__price">Gratis</h3>
+                    <h3 class="price__price">$999</h3>
                     
                     <div class="price__items">
-                        <p class="price__features"> Lorem, ipsum.</p>
-                        <p class="price__features"> Lorem, ipsum.</p>
-                        <p class="price__features"> Lorem, ipsum.</p>                    
+                        <p class="price__features">Instalacion de Blender</p>
+                        <p class="price__features">Uso de sus herramientas</p>
+                        <p class="price__features">Exportacion de archivos</p>                    
                     </div>                    
                     <a href="" class="price__cta">Comienza Ahora!</a>
                 </div>
 
                 <div class="price__element price__element--best">
-                    <p class="price__name">Blender para Principiantes</p>
-                    <h3 class="price__price">$1500</h3>
+                    <p class="price__name">Blender Cero a Profesional</p>
+                    <h3 class="price__price">$5.000</h3>
                     
                     <div class="price__items">
-                        <p class="price__features"> Lorem, ipsum.</p>
-                        <p class="price__features"> Lorem, ipsum.</p>
-                        <p class="price__features"> Lorem, ipsum.</p>                    
+                        <p class="price__features">Uso de Herramientas</p>
+                        <p class="price__features">Diseño 3D</p>
+                        <p class="price__features">Modelado 3D</p>                    
+                        <p class="price__features">Iluminación</p>                    
+                        <p class="price__features">Herramientas Extras</p>                    
+                        <p class="price__features">Animación 3D</p>                    
+
                     </div>                    
                     <a href="" class="price__cta">Comienza Ahora!</a>
                 </div>
 
                 <div class="price__element">
-                    <p class="price__name">Blender para Principiantes</p>
+                    <p class="price__name">Blender nivel Intermedio</p>
                     <h3 class="price__price">$3000</h3>
                     
                     <div class="price__items">
-                        <p class="price__features"> Lorem, ipsum.</p>
-                        <p class="price__features"> Lorem, ipsum.</p>
-                        <p class="price__features"> Lorem, ipsum.</p>                    
+                        <p class="price__features">Modelado 3D</p>
+                        <p class="price__features">Diseño 3D.</p>
+                        <p class="price__features">Iluminacion</p>                    
                     </div>                    
                     <a href="" class="price__cta">Comienza Ahora!</a>
                 </div>
@@ -129,7 +133,7 @@
             </div>
         </section>
 
-        <section class="reputation">
+        <section class="reputation" id="reputation">
             <div class="reputation__container container">
                 <img src="./images/arrow_left.svg" class="reputation__arrow" id="before">
                 <section class="reputation__body reputation__body--show" data-id="1">
@@ -137,7 +141,7 @@
                         <h2 class="subtitle">
                             Mi nombre es Samantha, <span class="reputation__course">Estudiante de Blender</span>
                         </h2>
-                        <p class="reputation__review">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam perspiciatis distinctio ullam.</p>
+                        <p class="reputation__review">Tome el curso de Blender para principiantes. Me acerco al mundo 3D y quede fascinada, pronto comenzare con el curso intermedio para adquirar mas conocimientos.</p>
                     </div>
                     <figure class="reputation__pictures">
                         <img src="./images/face_ (1).jpg" alt="Alumno" class="reputation__img">
@@ -149,7 +153,7 @@
                         <h2 class="subtitle">
                             Mi nombre es Pablo, <span class="reputation__course">Estudiante de Blender</span>
                         </h2>
-                        <p class="reputation__review">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam perspiciatis distinctio ullam.</p>
+                        <p class="reputation__review">El profesor Juan dictó la capacitación de Blender cero a Profesional, me instruyo de manera excelente y pude adquirir un monton de conocimiento que ahora finalizado el curso quiero poner en valor. Lo recomiendo rotundamente!</p>
                     </div>
                     <figure class="reputation__pictures">
                         <img src="./images/face_ (2).jpg" alt="Alumno" class="reputation__img">
@@ -161,7 +165,7 @@
                         <h2 class="subtitle">
                             Mi nombre es Cecilia, <span class="reputation__course">Estudiante de Blender</span>
                         </h2>
-                        <p class="reputation__review">Lorem . Numquam perspiciatis distinctio ullam.</p>
+                        <p class="reputation__review">El año pasado curse el modulo intermedio y ahora quiero aprender sobre animación 3D. Amo Blender!</p>
                     </div>
                     <figure class="reputation__pictures">
                         <img src="./images/face_ (3).jpg" alt="Alumno" class="reputation__img">
@@ -173,7 +177,7 @@
                         <h2 class="subtitle">
                             Mi nombre es Juan, <span class="reputation__course">Estudiante de Blender</span>
                         </h2>
-                        <p class="reputation__review">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam perspiciatis distinctio ullam.</p>
+                        <p class="reputation__review">Estoy totalmente conforme con este curso, aprendi un monton de herramientas y tips para modelar en 3D. Agradezco que esta capacitaciones haya aumentado mis habilidades de diseñador.</p>
                     </div>
                     <figure class="reputation__pictures">
                         <img src="./images/face_ (4).jpg" alt="Alumno" class="reputation__img">
@@ -187,7 +191,7 @@
             </div>
         </section>
 
-        <section class="question container">
+        <section class="questions container" id="faq">
             <h2 class="subtitl">Preguntas Frecuentes</h2>
             <p class="questions__paragraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam, itaque.</p>
 
@@ -201,7 +205,7 @@
                         </h3>
 
                         <p class="questions__show">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia asperiores cumque modi nulla. Natus ipsum atque minus corporis repudiandae autem!
+                            Blender es un programa informático multiplataforma, dedicado especialmente al modelado, iluminación, renderizado, la animación y creación de gráficos tridimensionales. También de composición digital utilizando la técnica procesal de nodos, edición de vídeo, escultura y pintura digital.
                         </p>
 
                     </div>
@@ -216,7 +220,7 @@
                         </h3>
 
                         <p class="questions__show">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia asperiores cumque modi nulla. Natus ipsum atque minus corporis repudiandae autem!
+                            La maquetación 3D o modelismo es una de las técnicas más efectivas a la hora de mostrar un tipo de construcción, un modelo o un detalle para analizarlo con total precisión. Son de gran ayuda a la hora de estudiar y conocer a fondo un objeto. Las maquetas son un producto totalmente personalizado.
                         </p>
 
                     </div>
@@ -230,7 +234,7 @@
                         </h3>
 
                         <p class="questions__show">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia asperiores cumque modi nulla. Natus ipsum atque minus corporis repudiandae autem!
+                            La animación 3D usa gráficos por computadora para que parezca que los objetos se mueven en un espacio tridimensional. Los artistas usan software de modelado 3D para crear los objetos. Después viene la manipulación, una representación virtual de un objeto o el esqueleto de un personaje.
                         </p>
 
                     </div>
@@ -248,33 +252,33 @@
         
     </main>
 
-    <footer class="footer">
+    <footer class="footer" id="footer">
         <section class="footer__container container">
             <nav class="nav nav--footer">
                 <h2 class="footer__title">Curso Blender</h2>
                 <ul class="nav__link nav__link--footer">
-                    <li class="nav__items"><a href="" class="nav__links">Inicio</a></li> 
-                    <li class="nav__items"><a href="" class="nav__links">Acerca de</a></li> 
-                    <li class="nav__items"><a href="" class="nav__links">Contacto</a></li> 
-                    <li class="nav__items"><a href="" class="nav__links">Blog</a></li> 
+                <li class="nav__items"><a href="#home" class="nav__links">Inicio</a></li> 
+                <li class="nav__items"><a href="#about" class="nav__links">Acerca de</a></li> 
+                <li class="nav__items"><a href="#price" class="nav__links">Precios</a></li> 
+                <li class="nav__items"><a href="#faq" class="nav__links">Faq</a></li> 
+                <li class="nav__items"><a href="#footer" class="nav__links">Contacto</a></li>  
+                    
                     <img src="./images/close.svg" alt="menu" class="nav__close">       
                 </ul>
             </nav>
-            <form action="" class="footer__form">
-                <h2 class="footer__newsletter">
-                    Suscribite a nuestros Newsletter
-                </h2>
+            <form class="footer__form" action="https://formspree.io/f/mknkkrkj" method="POST">
+                <h2 class="footer__newsletter">Suscribite a nuestros Newsletter</h2>
                 <div class="footer__inputs">
-                    <input type="email" placeholder="email" class="footer__input">
-                    <input type="submit" value="Registrate" class="footer__submit" >
+                    <input type="email" placeholder="Email:" class="footer__input" name="_replyto">
+                    <input type="submit" value="Registrate" class="footer__submit">
                 </div>
             </form>
         </section>
         <section class="footer__copy container">
             <div class="footer__social">
                 <a href="" class="footer__icon">
-                    <img src="./images/fb.svg" class="footer__img">
-                    <img src="./images/tw.svg" class="footer__img">                    
+                   <a href="https://github.com/GastonPaez"> <img src="./images/linkedin.svg" class="footer__img"></a>
+                   <a href="https://www.linkedin.com/in/gp-dev/"><img src="./images/github.svg" class="footer__img"></a>                    
                 </a>
             </div>
             <h3 class="footer__copyright">
@@ -285,6 +289,7 @@
     </footer>
 <script src="./js/slider.js"></script>
 <script src="./js/questions.js"></script>
+<script src="./js/menu.js"></script>
 </body>
 
 </html>
